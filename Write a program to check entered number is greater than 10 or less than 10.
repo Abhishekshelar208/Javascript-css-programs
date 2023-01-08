@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>
+            Write a program to check entered number is greater than 10 or less than 10.
+        </title>
+    </head>
+    <body>
+        <script>
+            var num = prompt("Enter number : ");
+            if(num>10){
+                document.write("Number is greater than 10.");
+            }else if(num<10){
+                document.write("Number is less than 10.");
+            }else{
+                document.write("Invalid number . ");
+            }
+        </script>
+    </body>
+</html>
