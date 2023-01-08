@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>
+            Write a program to create a variable user, having properties fname,lname.
+        </title>
+    </head>
+    <body>
+        
+        <script>
+            var user = {
+
+                fname = "Abhishek",
+                lname = "Shelar";
+
+            }
+            document.write("User Name : "+fname+" "+lname);
+        </script>
+    </body>
+</html>
