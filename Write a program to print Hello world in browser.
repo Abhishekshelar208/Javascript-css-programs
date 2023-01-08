@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>
+            Write a program to print Hello world in browser.
+        </title>
+    </head>
+    <body>
+        <script>
+            document.write("Hello world...");
+        </script>
+    </body>
+    </body>
+</html>
