@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>
+            Write a program to print Multiplication of two numbers form user input...
+        </title>
+    </head>
+    <body>
+        <script>
+            var a = prompt("Enter first no : ");
+            var b = prompt("Enter second no : ");
+            var c = a * b;
+            alert("Multiplication is : "+c);
+        </script>
+    </body>
+</html>
