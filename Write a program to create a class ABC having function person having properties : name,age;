@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>
+            Write a program to create a class ABC having function person having properties : name,age;
+        </title>
+    </head>
+    <body>
+        <script>
+            class ABC{
+                constructor(name,age) {
+                    this.name = name;
+                    this.age = age;
+                    document.write("Name is : "+name+"<br>");
+                    document.write("Age is : "+age);
+                    
+                }
+            }
+
+            var p= new ABC("Abhisheks",20);
+        </script>
+    </body>
+</html>
