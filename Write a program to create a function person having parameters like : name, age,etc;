@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>
+            Write a program to create a function person having parameters like : name, age,etc;
+        </title>
+    </head>
+    <body>
+        
+        <script>
+           function person(name,age){
+            this.name = name;
+            this.age = age;
+            
+            document.write("Name is : "+name+"<br>");
+            document.write("Age is : "+age);
+           }
+
+           person("Abhishek",12);
+
+           
+           
+        </script>
+    </body>
+</html>
