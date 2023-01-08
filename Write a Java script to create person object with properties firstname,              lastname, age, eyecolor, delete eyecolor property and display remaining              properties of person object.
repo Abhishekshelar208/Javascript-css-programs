@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>
+            Write a Java script to create person object with properties firstname, 
+            lastname, age, eyecolor, delete eyecolor property and display remaining 
+            properties of person object.
+        </title>
+    </head>
+    <body>
+        
+        <script>
+            var person = {
+                firstname : "Abhishek",
+                lastname : "Shelar",
+                age : 20,
+                eyecolor : "Black"
+
+            };
+            delete person.eyecolor;
+            document.write("First Name : "+person.firstname+"<br>");
+            document.write("Last Name : "+person.lastname+"<br>");
+            document.write("Age : "+person.age+"<br>");
+            document.write("Eye color is : "+person.eyecolor);
+
+        </script>
+    </body>
+</html>
