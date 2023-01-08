@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>
+            Write a program to check Grade entered by the user(Switch Statement).
+        </title>
+    </head>
+    <body>
+        <script>
+            var grade = prompt("Enter Grade : ");
+            switch(grade){
+                case "A":
+                    document.write("Excellent.");
+                    break;
+                case "B":
+                    document.write("Very Good.");
+                    break;
+                case "C":
+                    document.write("Average.");
+                    break;
+                case "D":
+                    document.write("Fail.");
+                    break;
+                default:
+                    document.write("Invalid.");
+            }
+        </script>
+    </body>
+</html>
