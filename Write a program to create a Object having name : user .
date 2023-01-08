@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>
+            Write a program to create a Object having name : user .
+        </title>
+    </head>
+    <body>
+        
+        <script>
+            var user = {
+                fname : "Abhishek",
+                lname : "Shelar"
+            };
+            document.write("First Name is : "+user.fname+" "+"Last name is : "+user.lname);
+        </script>
+    </body>
+</html>
