@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>
+            Write a JavaScript that will replace following specified value with another value in string.
+        </title>
+    </head>
+    <body>
+        <script>
+            var mystr = "I will fail";
+            var newstr = mystr.replace("fail","pass");
+            document.write("Before replace : "+mystr+"<br>");
+
+            document.write("After replace : "+newstr+"<br>");
+
+
+        </script>
+    </body>
+</html>
