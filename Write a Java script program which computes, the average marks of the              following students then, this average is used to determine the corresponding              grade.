@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>
+            Write a Java script program which computes, the average marks of the 
+            following students then, this average is used to determine the corresponding 
+            grade.
+        </title>
+        <script>
+
+            var students = [["Sumit", 80], ["Kalpesh", 77], ["Amit", 88], ["Tejas", 93], ["Abhishek", 65]];
+            var total = 0;
+            for(var i=0; i<students.length; i++){
+                total += students[i][1];
+            }
+            document.write("Total marks : "+total+"<br>");
+            var avg = total/5;
+            document.write("Avrage is : "+avg+"<br>");
+            if(avg<60){
+                document.write("Grade E");
+            }else if(avg<70){
+                document.write("Grade D");
+            }else if(avg<80){
+                document.write("Grade C");
+            }else if(avg<90){
+                document.write("Grade B");
+            }else if(avg<100){
+                document.write("Grade A");
+            }else{
+                document.write("Invalid");
+            }
+        </script>
+    </head>
+</html>
