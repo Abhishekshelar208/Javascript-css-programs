@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>
+            Write Javascript to call function from HTML.
+        </title>
+
+        <script>
+            function hello(){
+                alert("hello user.");
+            }
+
+            function welcome(){
+                alert("welcome user.");
+            }
+        </script>
+    </head>
+    <body onload="hello()" onunload="welcome()"></body>
+</html>
