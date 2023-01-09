@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>
+            Getter and Setter
+        </title>
+        <script>
+            var Car ={
+                color : "Red",
+                name : "BMW",
+
+                get Color(){
+                    return this.color;
+                },
+                get Name(){
+                    return this.name;
+                },
+
+                set Color(newcolor){
+                    this.Color=newcolor;
+                },
+                set Name(newname){
+                    this.Name=newname;
+                }
+
+            };
+
+            document.write("Car Color is : "+Car.color+"  Car Name is : "+Car.name+"<br>");
+            Car.color = "Yello";
+            Car.name = "Honda";
+
+            document.write("After changes <br>");
+
+            document.write("Car Color is : "+Car.color+"  Car Name is : "+Car.name);
+
+
+
+        </script>
+    </head>
+</html>
