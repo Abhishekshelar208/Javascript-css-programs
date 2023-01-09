@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>
+            Write a Java Script code to display 5 elements of array in sorted order. 
+        </title>
+    </head>
+    <body>
+        
+        <script>
+
+            var colors = ["Red", "Blue", "Orange", "Purple", "Black"];
+            document.write("Array elements before sorting....");
+            for(var i=0; i<colors.length; i++){
+                document.write(colors[i]+"<br>");
+            }
+            colors.sort();
+            document.write("Array elements after sorting....");
+            for(var i=0; i<colors.length; i++){
+                document.write(colors[i]+"<br>");
+            }
+
+        </script>
+    </body>
+</html>
