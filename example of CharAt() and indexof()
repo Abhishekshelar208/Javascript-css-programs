@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>
+            example of CharAt() and indexof()
+        </title>
+    </head>
+    <body>
+        <script>
+            var Name = "Abhishek";
+            document.write(Name.charAt(0)+"<br>");
+            
+            var color = "Black";
+            document.write(color.indexOf('c'));
+            
+        </script>
+    </body>
+</html>
