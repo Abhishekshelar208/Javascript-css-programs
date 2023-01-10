@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>
+            Write a program that accept 5 no form user and display the largest no.
+        </title>
+    </head>
+    <body>
+        <script>
+            var a = prompt("Enter 1st no : ");
+            var b = prompt("Enter 2nd no : ");
+            var c = prompt("Enter 3rd no : ");
+            var d = prompt("Enter 4th no : ");
+            var e = prompt("Enter 5th no : ");
+            if(a>b && a>c && a>d && a>e){
+                document.write("<br> Greater no is : "+a);
+            }else if(b>a && b>c && b>d && b>e){
+                document.write("<br> Greater no is : "+b);
+            }else if(c>a && c>b && c>d && c>e){
+                document.write("<br> Greater no is : "+c);
+            }else if(d>a && d>b && d>c && d>e){
+                document.write("<br> Greater no is : "+d);
+            }else{
+                document.write("<br> Greater no is : "+e);
+            }
+        </script>
+    </body>
+</html>
