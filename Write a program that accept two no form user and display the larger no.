@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>
+            Write a program that accept two no form user and display the larger no.
+        </title>
+    </head>
+    <body>
+        <script>
+            var a = prompt("<br>Enter first no : ");
+            var b = prompt("<br>Enter second no : ");
+            if(a>b){
+                alert("<br>Larger no is : "+a);
+            }else{
+                alert("<br>Larger no is : "+b);
+            }
+        </script>
+    </body>
+</html>
