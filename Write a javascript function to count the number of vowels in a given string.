@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>
+            Write a javascript function to count the number of vowels in a given string.
+        </title>
+        
+    </head>
+    <body>
+        <script>
+            function checkvovel(){
+                var str = prompt("Enter string : ");
+                document.write("NO of vovels are : "+str.match(/[aeiou]/gi).length);
+            }
+
+            checkvovel();
+            
+            
+            
+            
+        </script>
+        
+    </body>
+</html>
