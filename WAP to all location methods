@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>
+            WAP to all location methods
+        </title>
+    </head>
+    <body>
+        
+        <script>
+            var path = window.location.pathname;
+            var host = window.location.hostname;
+            var protocol = window.location.protocol;
+            var assign = window.location.assign;
+
+
+            document.write("Path is : "+path+"<br>");
+            document.write("Host Name is : "+host+"<br>");
+            document.write("Protocol is : "+protocol+"<br>");
+            document.write("Assign is : "+assign+"<br>");
+        </script>
+    </body>
+</html>
