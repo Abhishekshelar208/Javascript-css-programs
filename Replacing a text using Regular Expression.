@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>
+            Replacing a text using Regular Expression.
+        </title>
+    </head>
+    <body>
+        <script>
+            function myfunction(str){
+                s = str.replace("Country","India");
+                document.write(s);
+            }
+            myfunction("I love my Country");
+        </script>
+    </body>
+</html>
