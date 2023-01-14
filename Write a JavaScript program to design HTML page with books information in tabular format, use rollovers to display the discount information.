@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>
+            Write a JavaScript program to design HTML page with books information in tabular format, use rollovers to display the discount information.
+        </title>
+    </head>
+    <body>
+        <table>
+            <thead>
+            <tr>
+                <th>Book Name</th>
+                <th>Author</th>
+                <th>Price</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Alice in Wonderland</td>
+                <td>Lewis Carrol</td>
+                <td>1240</td>
+            </tr>
+            <tr>
+                <td>Ancient Mariner</td>
+                <td>Coleridge</td>
+                <td>954</td>
+            </tr>
+            <tr>
+                <td>Arms and the Man</td>
+                <td>G.B.Shaw</td>
+                <td>1670</td>
+            </tr>
+            <tr>
+                <td>Anna Karenina</td>
+                <td>Leo Tolstoy</td>
+                <td>340</td>
+            </tr>
+            </tbody>
+        </table>
+        <script>
+
+            function myfunction(){
+                document.myform.empty.value="Flat 20% discount for all books.";
+            }
+        </script>
+        <form name="myform">
+            <input type="button" value="Check Discount" onmouseover="myfunction()"><br>
+            <input type="text" size=40 name="empty">
+        </form>
+    </body>
+</html>
