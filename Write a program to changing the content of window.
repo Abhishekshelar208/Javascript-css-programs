@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>
+            Write a program to changing the content of window.
+        </title>
+    </head>
+    <body>
+        <script>
+            function openWindow(){
+                var m = window.open("","mywindow","width=200,height=200, left=200, top=100");
+                m.document.write("welcome to a new window.");
+                
+            }
+            openWindow();
+        </script>
+        <form name="myform">
+            <input type="button" value="ClickME" onclick="openWindow()">
+        </form>
+    </body>
+</html>
