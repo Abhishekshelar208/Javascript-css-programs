@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>
+            Write a JavaScript program to create a slide show with the group of six images, also simulate the next and previous transition between slides in your JavaScript. 
+        </title>
+        <script>
+            myslide = new Array("slide1.jpg","slide2.jpg","slide3.jpg","slide4.jpg","slide5.jpg","slide6.jpg");
+            var i = 0;
+            function Display(slide){
+                i = i + slide;
+                if(i>myslide.length-1){
+                    i = 0;
+                }
+                if(i<0){
+                    i = myslide.length-1;
+                }
+                document.slide.src=myslide[i];
+            }
+            
+        </script>
+    </head>
+    <body>
+        <img src="slide1.jpg" name="slide" width="200" height="200"/><br>
+        <form name="myform">
+            <input type="button" value="Back" onclick="Display(-1)">
+            <input type="button" value="Forward" onclick="Display(1)">
+        </form>
+    </body>
+</html>
