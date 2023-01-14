@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>
+            example of setInterval() method in javascript.
+        </title>
+    </head>
+    <body>
+        <script>
+            function abc(){
+                alert("Welcome user");
+            }
+        </script>
+        <form name="myform">
+            <input type="button" value="ClickMe" onclick="setInterval(abc(),4000)">
+        </form>
+    </body>
+</html>
