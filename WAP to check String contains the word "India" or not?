@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>
+            WAP to check String contains the word "India" or not?
+        </title>
+    </head>
+    <body>
+        <script>
+            function myfunction(str){
+                re = /India/g
+                if(re.test(str)){
+                    document.write("String contain the word India.");
+                }else{
+                    document.write("String does not contain the word India.");
+                }
+            }
+            myfunction("I love my India.");
+        </script>
+    </body>
+</html>
