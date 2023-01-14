@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>
+            WAP to create and read cookie.
+        </title>
+    </head>
+    <body>
+        <script>
+            function createcookie(){
+                if(document.myform.cname.value==""){
+                    alert("First Enter Something.");
+                }
+                document.cookie=myform.cname.value+"="+myform.cvalue.value;
+            }
+            function readcookie(){
+                document.write("All Cookies :  "+document.cookie);
+            }
+        </script>
+        <form name="myform">
+            Enter Cookie Name : <input type="text" name="cname"><br>
+            Enter Cookie Value : <input type="password" name="cvalue"><br>
+            <input type="button" value="CreateCookie" onclick="createcookie()">
+            <input type="button" value="ReadCookie" onclick="readcookie()">
+
+        </form>
+    </body>
+</html>
