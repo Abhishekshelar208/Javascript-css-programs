@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>
+            WAP to check if string contain letters or not?
+        </title>
+    </head>
+    <body>
+        <script>
+            function testString(str){
+                re = /[a-z]/
+                if(re.test(str)){
+                    document.write("String contain letters");
+                }else{
+                    document.write("string does not contain letters");
+                }
+            }
+            testString("Abhishek");
+        </script>
+    </body>
+</html>
