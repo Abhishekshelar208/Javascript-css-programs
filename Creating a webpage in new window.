@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>
+            Creating a webpage in new window.
+        </title>
+    </head>
+    <body>
+        
+        <script>
+            function newwindow(){
+                var m = window.open("","mywindow","height=200,width=200,left=200,top=200");
+                m.document.write("<html>");
+                m.document.write("<head>");
+                m.document.write("<html> welcome </title>");
+                m.document.write("</head>");
+                m.document.write("<body>");
+                m.document.write("<h1> Hello world </h1>");
+                m.document.write("</body>");
+                m.document.write("</html>");
+            }
+        </script>
+        <form name="myform">
+            <input type="button" value="ClickMe" onclick="newwindow()">
+        </form>
+    </body>
+</html>
+
