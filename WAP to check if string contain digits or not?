@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>
+            WAP to check if string contain digits or not?
+        </title>
+    </head>
+    <body>
+        <script>
+            function testString(str){
+                re = /[0-9]/
+                if(re.test(str)){
+                    document.write("String contain digits");
+                }else{
+                    document.write("String does not contains digits.");
+                }
+            }
+            testString("Abhishek");
+        </script>
+    </body>
+</html>
