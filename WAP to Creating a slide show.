@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>
+            WAP to Creating a slide show.
+        </title>
+        <script>
+            MySlide = new Array('banner1.jpg','banner2.jpg','banner3.jpg');
+            var i = 0;
+            function Display(SlideNo){
+                i = i+SlideNo;
+                if(i>MySlide.lenght){
+                    i=0;
+                }
+                if(i<0){
+                    i=MySlide.lenght-1;
+                }
+                document.slideid.src=MySlide[i];
+            }
+        </script>
+    </head>
+    <body>
+        <img src="banner1.jpg" name="slideid" width="200" height="200">
+        <input type="button" name="" value="Back" onclick="Display(-1)">
+        <input type="button" name="" value="Forward" onclick="Display(1)">
+    </body>
+</html>
