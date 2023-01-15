@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>
+            WAP to protect your web page by Disabling Right click button.
+        </title>
+        <script>
+            function RightClickDisabled(){
+                alert("Right CLick is Disabled.");
+                return false;
+            }
+            function InternetExplorerBrowser(){
+                if(event.button==2){
+                    RightClickDisabled();
+                    return false;
+                }
+            }
+            document.oncontextmenu=new Function("RightClickDisabled(); return false");
+            
+        </script>
+    </head>
+</html>
