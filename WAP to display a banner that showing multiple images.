@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>
+            WAP to display a banner that showing multiple images.
+        </title>
+        <script>
+            MyBanner = new Array("banner1.jpg","banner2.jpg","banner3.jpg","banner4.jpg");
+            var count = 0;
+            function Display(){
+                if(document.images){
+                    count++;
+                    if(count==MyBanner.length){
+                        count=0;
+                    }
+                    document.BannerChange.src=MyBanner[count];
+                    setTimeout("Display()",2000);
+                }
+            }
+        </script>
+    </head>
+    <body onload="MyBanner()">
+        
+        <img src="banner1.jpg" height="300" width="300" name="BannerChange">
+  
+    </body>
+</html>
